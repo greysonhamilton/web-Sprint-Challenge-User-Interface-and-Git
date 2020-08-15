@@ -233,18 +233,14 @@ is changed. */
 hr {
     border: black dashed 1px;
     width: 800px;
-    margin: 1% auto 4%;
+    margin: 1% auto 5%;
 }
 
 div.hr hr {
     display: inline-block;
     border: black dashed 1px;
     width: 46%;
-    margin: 0 2%;
-}
-
-div.info-contain1 hr {
-    border: black dashed 1px;
+    margin: 0 2% 6%;
 }
 
 div.container-about-page {
