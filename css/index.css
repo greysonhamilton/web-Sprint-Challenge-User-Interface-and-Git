@@ -231,9 +231,20 @@ is changed. */
 }
 
 hr {
-    border: black dotted 1px;
+    border: black dashed 1px;
     width: 800px;
     margin: 1% auto 4%;
+}
+
+div.hr hr {
+    display: inline-block;
+    border: black dashed 1px;
+    width: 46%;
+    margin: 0 2%;
+}
+
+div.info-contain1 hr {
+    border: black dashed 1px;
 }
 
 div.container-about-page {
@@ -248,6 +259,7 @@ div.container-about-page {
     width: 800px;
     margin: 0 auto;
     justify-content: space-between;
+    padding-bottom: 3%;
 }
 
 .s2 {
@@ -257,10 +269,22 @@ div.container-about-page {
     padding: 3% 0;
 }
 
+section.s1 p {
+    padding-bottom: 40px;
+}
+
+section.s2 p {
+    padding-bottom: 40px;
+}
+
+h5 {
+    padding-top: 2%;
+}
+
 h6 {
     display: inline;
-    padding: 2%;
-    border: black solid 1px;
+    padding: 2% 4%;
+    border: black solid 2px;
     border-radius: 15px;
 }
 
