@@ -69,8 +69,9 @@ header {
 
 .top {
     display: flex;
-    justify-content: space-around;
-    padding: 2%;
+    justify-content: space-between;
+    padding: 4% 0 6%;
+    align-items: flex-end;
 }
 
 p {
