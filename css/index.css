@@ -127,7 +127,7 @@ p {
 .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
-    background: #ffd11a;
+    background: gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -138,7 +138,7 @@ p {
 .middle-content .boxes .box3 {
     width: 12.5%;
     height: 100px;
-    background: #00b3b3;
+    background: cadetblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -160,7 +160,7 @@ p {
 .middle-content .boxes .box5 {
     width: 12.5%;
     height: 100px;
-    background: red;
+    background: crimson;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -171,7 +171,7 @@ p {
 .middle-content .boxes .box6 {
     width: 12.5%;
     height: 100px;
-    background: green;
+    background: forestgreen;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -182,7 +182,7 @@ p {
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
-    background: blueviolet;
+    background: darkorchid;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -193,7 +193,7 @@ p {
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
-    background: #ff80aa;
+    background: hotpink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -204,7 +204,7 @@ p {
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
-    background: #5c0099;
+    background: indigo;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -215,7 +215,7 @@ p {
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
-    background: #4d94ff;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
