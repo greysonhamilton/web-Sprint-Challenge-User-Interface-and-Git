@@ -85,9 +85,14 @@ p {
     padding-top: 2%;
 }
 
+/* The flexbox for the header is used so that
+the first and last item are at the start and
+end, respectively, of the flex container. Not having
+the image in the flex container gives more control
+over where it is positioned when the screen size
+is changed. */
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
