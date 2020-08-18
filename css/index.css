@@ -62,18 +62,37 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0 6%;
+    align-items: flex-end;
+}
+
 p {
     line-height: 1.4;
+    padding: 2% 0 4%;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-top: 2%;
 }
 
+/* The flexbox for the header is used so that
+the first and last item are at the start and
+end, respectively, of the flex container. Not having
+the image in the flex container gives more control
+over where it is positioned when the screen size
+is changed. */
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,15 +120,168 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: black dashed 1px;
+    width: 800px;
+    margin: 1% auto 5%;
+}
+
+div.hr hr {
+    display: inline-block;
+    border: black dashed 1px;
+    width: 46%;
+    margin: 0 2% 6%;
+}
+
+div.container-about-page {
+    display: block;
+    width: 800px;
+    margin: 2% auto;
+    padding: 2% 2%;
+}
+
+.s1 {
+    display:flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.s2 {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+section.s1 p {
+    padding-bottom: 40px;
+}
+
+section.s2 p {
+    padding-bottom: 40px;
+}
+
+h5 {
+    padding-top: 2%;
+}
+
+h6 {
+    display: inline;
+    padding: 2% 4%;
+    border: black solid 2px;
+    border-radius: 15px;
 }
 
 .bottom-content {

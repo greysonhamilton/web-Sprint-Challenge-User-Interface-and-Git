@@ -33,14 +33,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML are elements that give a description within the element. Like <p> is for paragraph, <body> shows the body or viewport. This will help you to remember your HTML.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. Elements that are 'display:block' take up more space than they need. The take up the entire line. Elements that are 'display:inline' will only take up the space that they need.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? The four areas of the box-model are margin, border, padding, and content.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? The property 'align-items:center' affects the main axis within a flexbox.
 
 5. Explain why git is valuable to a team of developers.
+Git is a valuable tool to developers as it allows a team to work on a project independently of each other. Then each developers work can be merged into the one project. There work can also be viewed by each other, those that have been given the rights. Also, git and github allow for "source control". This allows for the developers to go back over every single update to reuse that code or for someone outside of the team to come in and overview what has been changed over time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
